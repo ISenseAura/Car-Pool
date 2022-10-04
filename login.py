@@ -124,6 +124,10 @@ class LOGIN(Toplevel):
             command=lambda: print("button_1 clicked"),
             relief="flat"
         )
+   
+   
+   
+        button_1.image = button_image_1
         button_1.place(
             x=165.0,
             y=413.0,
@@ -140,6 +144,8 @@ class LOGIN(Toplevel):
             command=lambda: print("button_2 clicked"),
             relief="flat"
         )
+   
+        button_2.image = button_image_2
         button_2.place(
             x=100.0,
             y=477.0,
@@ -165,6 +171,7 @@ class LOGIN(Toplevel):
             command=lambda: print("button_3 clicked"),
             relief="flat"
         )
+        button_3.image = button_image_3
         button_3.place(
             x=57.0,
             y=582.0,
@@ -198,6 +205,7 @@ class LOGIN(Toplevel):
             command=lambda: print("button_4 clicked"),
             relief="flat"
         )
+        button_2.image = button_image_2
         button_4.place(
             x=255.0,
             y=718.0,
